@@ -1,0 +1,17 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <main>
+            <div>
+                <h1>My Tasks <%= message %> </h1>
+                <ul>
+                <% taks.forEach( (tasks) => { %>
+                       <li> <%= tasks.id %> <%= tasks.text %></li>
+                 <% }) %>
+                </ul>
+            </div>
+        </main>
+    </body>
+</html>
